@@ -19,7 +19,7 @@ expressApp.get('/', (req, res) => {
     res.send('Hello World!')
   })
 
-  expressApp.get('/launchBot', (req, res) => {
+  expressApp.post('/launchBot', (req, res) => {
     res.send('Hello World!')
   })
 
