@@ -20,6 +20,10 @@ expressApp.get('/', (req, res) => {
     res.send('Hello World!')
   })
 
+  expressApp.get('/launchBot', (req, res) => {
+    res.send('Hello World!')
+  })
+
   expressApp.post('/launchBot', (req, res) => {
     res.send('Hello World!')
   })
