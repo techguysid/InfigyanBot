@@ -8,8 +8,8 @@ const expressApp = express()
 const bot = new Telegraf(process.env.BOT_TOKEN)
 const botPort = process.env.PORT||2000
 //expressApp.use(bot.webhookCallback('/'))
-bot.telegram.setWebhook(process.env.URL)
-bot.telegram.startWebhook(process.env.STARTWEBHOOK)
+//bot.telegram.setWebhook(process.env.URL)
+//bot.telegram.startWebhook(process.env.STARTWEBHOOK)
 
 
 expressApp.listen(process.env.port||3000, () => {
