@@ -7,7 +7,7 @@ const expressApp = express()
 
 const bot = new Telegraf(process.env.BOT_TOKEN)
 expressApp.use(bot.webhookCallback('/'))
-bot.telegram.setWebhook('https://infigyanbot.techguysid.now.sh/launch-bot')
+bot.telegram.setWebhook('https://infigyanbot.techguysid.now.sh/launchBot')
 
 
 
@@ -19,7 +19,7 @@ expressApp.get('/', (req, res) => {
     res.send('Hello World!')
   })
 
-  expressApp.get('/launch-bot', (req, res) => {
+  expressApp.get('/launchBot', (req, res) => {
     res.send('Hello World!')
   })
 
