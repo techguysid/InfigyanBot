@@ -6,9 +6,10 @@ const express = require('express')
 const expressApp = express()
 
 const bot = new Telegraf(process.env.BOT_TOKEN)
-expressApp.use(bot.webhookCallback('/'))
-bot.telegram.setWebhook('https://infigyanbot.techguysid.now.sh/launchBot')
-
+const botPort = process.env.PORT||2000
+//expressApp.use(bot.webhookCallback('/'))
+bot.telegram.setWebhook(process.env.URL)
+bot.telegram.startWebhook(process.env.STARTWEBHOOK)
 
 
 expressApp.listen(process.env.port||3000, () => {
