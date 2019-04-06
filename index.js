@@ -1,6 +1,7 @@
     
 const Telegraf = require("telegraf"); // import telegraf lib
 const Markup = require("telegraf/markup");
+const awards_partials = require('text_partials/awards.json')
 const BOT_TOKEN = process.env.BOT_TOKEN
 const PORT = process.env.PORT||2000
 console.log(BOT_TOKEN)
@@ -18,9 +19,9 @@ ctx.from.first_name+'! How may I help you today?\n You can give me following com
 '6. /important_days_of_the_calender - List of all days of national or international importance'))
 bot.launch()
 bot.command('/awards_sports',(ctx) => ctx.reply('Please select the award category to proceed :\n'+
-'1. /awards_sports_dronacharya - List of Dronacharya Awardees\n'+
-'2. /awards_sports_rajivgandhikhelratna - List of Rajiv Gandhi Khel Ratna Awardees\n'+
-'3. /awards_sports_arjuna - List of Arjuna Awardees\n'+
-'4. /awards_sports_dhyanchand - List of Dhyan Chand Awardees'))
+'1. /awards_sports_dronacharya_2018 - List of Dronacharya Awardees for the year 2018\n'+
+'2. /awards_sports_rajivgandhikhelratna_2018 - List of Rajiv Gandhi Khel Ratna Awardees for the year 2018\n'+
+'3. /awards_sports_arjuna_2018 - List of Arjuna Awardees for the year 2018\n'+
+'4. /awards_sports_dhyanchand_2018 - List of Dhyan Chand Awardees for the year 2018'))
 
-bot.command('awards_sports_dronacharya',(ctx) => ctx.replyWithHTML('<b>Subedar C.A.Kuttappa</b>-<b>Boxing</b><i>Subedar ban ke boxing karne lage</i>\n'))
+bot.command('awards_sports_dronacharya_2018',(ctx) => ctx.replyWithHTML(awards_partials.awards_sports_dronacharya_2018))
