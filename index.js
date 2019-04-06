@@ -23,4 +23,4 @@ bot.command('/awards_sports',(ctx) => ctx.reply('Please select the award categor
 '3. /awards_sports_arjuna - List of Arjuna Awardees\n'+
 '4. /awards_sports_dhyanchand - List of Dhyan Chand Awardees'))
 
-bot.command('awards/sports/dronacharya',(ctx) => ctx.replyWithHTML('<b>Subedar C.A.Kuttappa</b>-<b>Boxing</b><i>Subedar ban ke boxing karne lage</i>\n'))
+bot.command('awards_sports_dronacharya',(ctx) => ctx.replyWithHTML('<b>Subedar C.A.Kuttappa</b>-<b>Boxing</b><i>Subedar ban ke boxing karne lage</i>\n'))
