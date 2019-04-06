@@ -3,6 +3,7 @@ const Telegraf = require("telegraf"); // import telegraf lib
 const BOT_TOKEN = process.env.BOT_TOKEN
 const PORT = process.env.PORT||2000
 const bot = new Telegraf(BOT_TOKEN); // Get the token from the environment variable
+const URL = process.env.
 bot.telegram.setWebhook(`${URL}bot${BOT_TOKEN}`);
 bot.telegram.startWebhook(`/bot${BOT_TOKEN}`,null, PORT)
 // Start Bot
