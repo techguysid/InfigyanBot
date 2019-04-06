@@ -24,4 +24,4 @@ bot.command('/awards_sports',(ctx) => ctx.reply('Please select the award categor
 '3. /awards_sports_arjuna_2018 - List of Arjuna Awardees for the year 2018\n'+
 '4. /awards_sports_dhyanchand_2018 - List of Dhyan Chand Awardees for the year 2018'))
 
-bot.command('awards_sports_dronacharya_2018',(ctx) => ctx.replyWithHTML(awards_partials.awards_sports_dronacharya_2018))
+bot.command('awards_sports_dronacharya_2018',(ctx) => ctx.replyWithHTML(awards_partials.awards_sports_dronacharya_2018.join()))
