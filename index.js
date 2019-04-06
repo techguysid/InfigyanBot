@@ -10,14 +10,14 @@ bot.help((ctx) => ctx.reply('Send me a sticker'))
 bot.on('sticker', (ctx) => ctx.reply('👍'))
 bot.hears('hi', (ctx) => ctx.reply('Hey '+
 ctx.from.first_name+'! How may I help you today?\n You can give me following commands:\n'+
-'1. /awards/sports - To help you with the list of awardeesin the field of sports\n'+
-'2. /awards/literature - To help you with list of awardees in the field of literature.'+
-'3. /awards/nationalhonors - To help you with the list of receipents of Indian National Honorsa like Bharat Ratna etc.\n'+
-'4. /awards/music - To help you with list of awardees in the field of literature.\n'+
+'1. /awards_sports - To help you with the list of awardeesin the field of sports\n'+
+'2. /awardsliterature - To help you with list of awardees in the field of literature.'+
+'3. /awardsnationalhonors - To help you with the list of receipents of Indian National Honorsa like Bharat Ratna etc.\n'+
+'4. /awardsmusic - To help you with list of awardees in the field of literature.\n'+
 '5. /internationalOrganizations - To help you with the list of all the international organizations,their HQs and members\n'+
 '6. /importantDaysOfTheCalender - List of all days of national or international importance'))
 bot.launch()
-bot.command('/awards/sports',(ctx) => ctx.reply('Please select the award category to proceed :\n'+
+bot.command('/awards_sports',(ctx) => ctx.reply('Please select the award category to proceed :\n'+
 '1. /awards/sports/dronacharya - List of Dronacharya Awardees\n'+
 '2. /awards/sports/rajivgandhikhelratna - List of Rajiv Gandhi Khel Ratna Awardees\n'+
 '3. /awards/sports/arjuna - List of Arjuna Awardees\n'+
