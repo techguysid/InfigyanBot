@@ -11,16 +11,16 @@ bot.on('sticker', (ctx) => ctx.reply('👍'))
 bot.hears('hi', (ctx) => ctx.reply('Hey '+
 ctx.from.first_name+'! How may I help you today?\n You can give me following commands:\n'+
 '1. /awards_sports - To help you with the list of awardeesin the field of sports\n'+
-'2. /awardsliterature - To help you with list of awardees in the field of literature.'+
-'3. /awardsnationalhonors - To help you with the list of receipents of Indian National Honorsa like Bharat Ratna etc.\n'+
-'4. /awardsmusic - To help you with list of awardees in the field of literature.\n'+
-'5. /internationalOrganizations - To help you with the list of all the international organizations,their HQs and members\n'+
-'6. /importantDaysOfTheCalender - List of all days of national or international importance'))
+'2. /awards_literature - To help you with list of awardees in the field of literature.\n'+
+'3. /awards_nationalhonors - To help you with the list of receipents of Indian National Honorsa like Bharat Ratna etc.\n'+
+'4. /awards_music - To help you with list of awardees in the field of literature.\n'+
+'5. /international_organizations - To help you with the list of all the international organizations,their HQs and members\n'+
+'6. /important_days_of_the_calender - List of all days of national or international importance'))
 bot.launch()
 bot.command('/awards_sports',(ctx) => ctx.reply('Please select the award category to proceed :\n'+
-'1. /awards/sports/dronacharya - List of Dronacharya Awardees\n'+
-'2. /awards/sports/rajivgandhikhelratna - List of Rajiv Gandhi Khel Ratna Awardees\n'+
-'3. /awards/sports/arjuna - List of Arjuna Awardees\n'+
-'4. /awards/sports/dhyanchand - List of Dhyan Chand Awardees'))
+'1. /awards_sports_dronacharya - List of Dronacharya Awardees\n'+
+'2. /awards_sports_rajivgandhikhelratna - List of Rajiv Gandhi Khel Ratna Awardees\n'+
+'3. /awards_sports_arjuna - List of Arjuna Awardees\n'+
+'4. /awards_sports_dhyanchand - List of Dhyan Chand Awardees'))
 
 bot.command('awards/sports/dronacharya',(ctx) => ctx.replyWithHTML('<b>Subedar C.A.Kuttappa</b>-<b>Boxing</b><i>Subedar ban ke boxing karne lage</i>\n'))
