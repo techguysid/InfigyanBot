@@ -1,7 +1,7 @@
     
 const Telegraf = require("telegraf"); // import telegraf lib
 const Markup = require("telegraf/markup");
-const awards_partials = require('text_partials/awards.json')
+const awards_partials = require('./text_partials/awards.json')
 const BOT_TOKEN = process.env.BOT_TOKEN
 const PORT = process.env.PORT||2000
 console.log(BOT_TOKEN)
