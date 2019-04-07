@@ -1,4 +1,32 @@
 {
-    "awards_sports_dronacharya_2018":["<b>Subedar C.A.Kuttappa</b>-<b>Boxing</b>\n<i>Subedar ban ke boxing karne lage</i>\n",
-    "<b>Sukhdev Singh Pannu</b>-<b>Athletics</b>\n<b>VR Beedu</b>-<b>Athletics (Life-time)</b>\n<i>Pannu aur Beedu dono khoob kood faandh karte the,athletic the lekin beedu to beedu hai na, isliye usko life time</i>"]
+    "awards_sports_dronacharya_2018":["<b>Subedar C.A.Kuttappa</b>-<b>Boxing</b>\n<i>Subedar ban ke boxing karne lage</i>\n\n",
+    "<b>Sukhdev Singh Pannu</b>-<b>Athletics</b>\n<b>VR Beedu</b>-<b>Athletics (Life-time)</b>\n<i>Pannu aur Beedu dono khoob kood faandh karte the,athletic the lekin beedu to beedu hai na, isliye usko life time</i>\n\n",
+    "<b>Jiwan Kumar Sharma</b>-<b>Judo(Life-time)</b>\n<i>Jiwan-Judo (JJ)</i>\n\n",
+    "<b>Tarak Sinha</b>-<b>Cricket(Life-time)</b>\n<i>Taarak Mehta serial mei bachhe jab dekho cricket khelte rehte hai na</i>\n\n",
+    "<b>Vijay Sharma</b>-<b>Weightlifting</b>\n<i>Sharmaji ka launda Gym Boy hai, gym mei jaa ke weights uthata hai\n\n",
+    "<b>A.Srinivas Rao</b>-<b>Table Tennis</b>\n<i>Nivas mei reh ke to TT Carrom hi khel sakte baaki sab to ground pe khelna padta</i>\n\n",
+    "<b>Clarence Lobo</b>-<b>Hockey</b>\n<i>English naam,desi khel ;)</i>"],
+
+    "awards_sports_rajivgandhikhelratna_2018":"<b>Mirabai Chanu</b>-<b>Weightlifting</b>\n<b>Virat Kohli</b>-<b>Cricket</b>\n<i>Chanu(Chinu+Anu) weights uthate saath mei aur fir Kohli ke saath cricket khelte.",
+
+    "awards_sports_arjuna_2018":["<b>Neeraj Chopra, Hima Das, Subedar Jinson Johnson</b>-<b>Athletics</b>\n<i>Neeraj Nima Sandal Soap se naha ke Johnson and Johnson ka powder laga ke koodh faandh karta hai</i>\n\n",
+    "<b>Nelakurthi Sikki Reddy</b>-<b>Badminton</b>\n<i>Neeli kurti pehen ke badminton khelte</i>\n\n",
+    "<b>Subedar Satish Kumar</b>-<b>Boxing</b>\n<i>Papa boxing(mukkebaazi) karte</i>\n\n",
+    "<b>Shubhankar Sharma</b>-<b>Golf</b>\n<i>Shubhanshu dada golf khelte, lambe hai :P</i>\n\n",
+    "<b>Manpreet Singh, Savita</b>-<b>Hockey</b>\n<i>Savita bhabhi ke paas man (Manpreet) ki key(Hockey) hai :D</i>\n\n",
+    "<b>Col. Ravi Rathore</b>-<b>Polo</b>\n<i>Col sahab Polo khelte hai</i>\n\n",
+    "<b>Rahi Sarnobat, Ankur Mittal, Shreyasi Singh</b>-<b>Shooting</b>\n<i>Pyaar ka *Raahi* *Ankur* bechara *Shreyasi* ke haatho gun se uda diya gaya\n\n",
+    "<b>Manika Batra, G.Sathiyan</b>-<b>Table Tennis</b>\n<i>Mann ka Saathiya TT khelta</i>\n\n",
+    "<b>Rohan Bopanna</b>-<b>Tennis</b>\n<i>Tennis khelte anna</i>\n\n",
+    "<b>Sumit</b>-<b>Wresting</b>\n<i>Sumit to Kusti karta, 5 akshar ka Sumit 5 aksar ki Kusti</i>\n\n",
+    "<b>Pooja Kadian</b>-<b>Wushu</b>\n<i>Pooja Wushu karte karte Susu kar deti</i>\n\n",
+    "<b>Ankur Dhama</b>-<b>Para athletics</b>\n<i>Ankur dhamm se gira par fir bhi athletics ni chhoda</i>\n\n",
+    "<b>Manoj Sarkar</b>-<b>Para badminton</b>\n<i>Manoj chale the sarkar banane,dhamm se gire ab wo bhi neeli kurti mei badminton khelte hai\n\n",
+    "<b>Smriti Mandhana</b>-<b>Cricket</b>\n<i>Women cricket ki Kohli, sabka crush <3</i>"],
+
+    "awards_sports_dhyanchand_2018":["<b>Satyadev Prasad</b>-<b>Archery</b>\n",
+    "<b>Bobby Aloysius</b>-<b>Athletics</b>\n",
+    "<b>Bharat Kumar Chetri</b>-<b>Hockey</b>\n",
+    "<b>Chougale Dadu Dattatray</b>-<b>Wrestling</b>\n",
+    "<i>Dhyanchand ji ka chota parivaar, 4 prani, Dadu,Booby-Bharat, aur Bharat ka chota bhai Satya.Satya sach ke teer chalata hai,Booby koodhti rehti Bharat uske piche hockey liye liye daudta rehta, Bobby Bharat ki ladai hoti to Dadu bharat se kushti kar lete.</i>"]
 }
